@@ -1,0 +1,29 @@
+# KiCad lock, backup, cache, and local preference files
+*.lck
+~*.lck
+*-backups/
+.history/
+fp-info-cache
+*.kicad_prl
+*_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# Autorouter / Specctra temporary files
+temp-freerouting.*
+*.dsn
+*.ses
+
+# Generated verification & probe outputs
+verification/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
